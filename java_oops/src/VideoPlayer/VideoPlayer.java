@@ -28,8 +28,6 @@ public class VideoPlayer {
     private static final String MASTER_FOLDER_PATH = System.getProperty("user.home") + "/Desktop/MasterFolder";
 
     public VideoPlayer() {
-        // System.setProperty("jna.library.path", "/Applications/VLC.app/Contents/MacOS"); // Adjust this path
-        System.setProperty("jna.library.path", "/Users/sammarsaini/Desktop/java_oops/native-libs");
         // rest of your code
         frame = new JFrame("Java Video Player");
         mediaPlayerComponent = new EmbeddedMediaPlayerComponent();

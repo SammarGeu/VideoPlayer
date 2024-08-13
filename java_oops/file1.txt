@@ -1,0 +1,3 @@
+java is a cool language
+words = 5
+chars = 19
